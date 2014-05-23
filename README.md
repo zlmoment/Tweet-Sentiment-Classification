@@ -13,16 +13,20 @@ All the souce codes can only be used for learning and discussion.
 ### File explanation
 
 - driver.py	
-It is a driver that connects all the other Python files together and invoke functions in order.
+
+  It is a driver that connects all the other Python files together and invoke functions in order.
 
 - getFeatureList_DimRed.py	
-It is used to generate the vocabulary from the training set, this file uses Chi-Square test to do feature selection.
+
+  It is used to generate the vocabulary from the training set, this file uses Chi-Square test to do feature selection.
 
 - getFeatureList_DimRed2.py	
-It is the same as above file but using term vector to do feature selection.
+
+  It is the same as above file but using term vector to do feature selection.
 
 - classify.py	
-It is used to preprocess the tweet, build and train the classifier, and do cross validation.
+  It is used to preprocess the tweet, build and train the classifier, and do cross validation.
 
 - utils.py	
-It is a collection of useful functions that may be invoked multiple times in other Python files.
+
+  It is a collection of useful functions that may be invoked multiple times in other Python files.

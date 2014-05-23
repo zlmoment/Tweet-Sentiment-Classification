@@ -5,10 +5,6 @@
 # @author: Zhaoyu Li
 # @mail: zlht3@mail.missouri.edu
 
-#
-# get the feature list using Chi-Square test
-#
-
 import csv
 import sys
 import re
@@ -25,7 +21,9 @@ import operator
 
 # the main class
 class getFeatureList_ChiSquare():
-
+	"""
+	get the feature list using Chi-Square test
+	"""
 	trainingDataFile = ""
 	feature_list = []
 	num = 0

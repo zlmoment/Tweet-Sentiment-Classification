@@ -5,11 +5,6 @@
 # @author: Zhaoyu Li
 # @mail: zlht3@mail.missouri.edu
 
-#
-# get the feature list using term frequency
-# the only differnce between this file and getFeatureList_DimRed.py
-# is this file uses term frequency
-#
 
 import csv
 import sys
@@ -27,7 +22,11 @@ import operator
 
 # the main class
 class getFeatureList_TF():
-
+	"""
+	get the feature list using term frequency
+	the only differnce between this file and getFeatureList_DimRed.py
+	is this file uses term frequency
+	"""
 	trainingDataFile = ""
 	feature_list = []
 	num = 0

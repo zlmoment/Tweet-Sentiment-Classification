@@ -3,6 +3,7 @@
 
 # ECE/CS 7720
 # @author: Zhaoyu Li
+# @mail: zlht3@mail.missouri.edu
 
 #
 # get the feature list using term frequency
@@ -25,7 +26,7 @@ from utils import *
 import operator
 
 # the main class
-class getFeatureList_dimred():
+class getFeatureList_TF():
 
 	trainingDataFile = ""
 	feature_list = []
@@ -113,5 +114,5 @@ if __name__ == '__main__':
 	# get the number of samples
 	num = sys.argv[2]
 	# create class and start to generate feature list
-	cl = getFeatureList_dimred(trainingDataFile, num)
+	cl = getFeatureList_TF(trainingDataFile, num)
 	cl.generateFeatureList()

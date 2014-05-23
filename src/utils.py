@@ -3,6 +3,7 @@
 
 # ECE/CS 7720
 # @author: Zhaoyu Li
+# @mail: zlht3@mail.missouri.edu
 
 #
 # a utils collection to provide some helper function

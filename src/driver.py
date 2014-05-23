@@ -3,11 +3,12 @@
 
 # ECE/CS 7720
 # @author: Zhaoyu Li
+# @mail: zlht3@mail.missouri.edu
 
 import os
 import sys
 from classify import *
-from getFeatureList_DimRed import *
+from getFeatureList_ChiSquare import *
 
 # get input arguments
 s = int(sys.argv[1])
@@ -25,7 +26,7 @@ trainingDataFile = "training.test.csv"
 # if you are going to use term frequency, you need to use next line
 
 # if you are going to use term frequency, you need to use next line
-cl = getFeatureList_dimred(trainingDataFile, d)
+cl = getFeatureList_ChiSquare(trainingDataFile, d)
 cl.generateFeatureList()
 
 # trainign and classify

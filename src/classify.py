@@ -3,6 +3,7 @@
 
 # ECE/CS 7720
 # @author: Zhaoyu Li
+# @mail: zlht3@mail.missouri.edu
 
 #
 # preprocess the tweet, build and train the classifier, and do cross validation
